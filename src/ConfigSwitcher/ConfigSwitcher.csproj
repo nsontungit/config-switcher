@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="icons8-add-folder-48.png" />
+    <None Remove="icons8-close-48.png" />
+    <None Remove="icons8-export-48.png" />
+    <None Remove="icons8-import-48.png" />
+    <None Remove="icons8-opened-folder-48.png" />
+    <None Remove="icons8-save-48.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons8-add-folder-48.png" />
+    <Resource Include="icons8-close-48.png" />
+    <Resource Include="icons8-export-48.png" />
+    <Resource Include="icons8-import-48.png" />
+    <Resource Include="icons8-opened-folder-48.png" />
+    <Resource Include="icons8-save-48.png" />
+  </ItemGroup>
+
+</Project>
